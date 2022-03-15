@@ -3,7 +3,7 @@
 /**
  * main - prints fibonnaci numbers
  *
- * Description: prints from 1 to 98
+ * Description: prints from 1 to 50
  * Return: Always(0) Success
  */
 
@@ -12,11 +12,11 @@ int main(void)
 	int num1, num2, i, n;
 	int next_num;
 
-	n = 98;
+	n = 50;
 
 	for (i = 1; i <= n; i++)
 	{
-		if (i == 98)
+		if (i == 50)
 		{
 			printf("%d, ", num2);
 		}
